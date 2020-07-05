@@ -1,0 +1,326 @@
+
+.resultby{
+  font-family: Gotham;
+  font-size: 12.5px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #4a4a4a;
+}
+
+.titleofcolumn{
+  font-family: Gotham;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.15px;
+  color: #000000;
+}
+
+.dashboardtable .nav{
+    border-bottom:1px solid #bbbbbb;
+    
+}
+
+.dashboardtable .nav li {
+    margin-bottom: 2px;
+    // width:150px;
+}
+
+.resdata h3{
+  font-size: 20px;
+  text-align:center;
+  font-weight:500;
+  font-family: Gotham;
+
+}
+
+.dashboardtable .nav-link{
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.circlechart{
+  position: absolute; 
+  top:70px;
+  left:20px;
+}
+
+@media screen and (min-width: 1400px) {
+	.circlechart{
+		left:40px;
+  }
+}
+
+.topnav .fa-search{
+  opacity:0.5;
+}
+
+// @media screen and (min-width: 1500px) and (max-width:2000px) {
+//   .circlechart{
+//     left:80px;
+//   }
+// }
+
+.dashboardtable .nav-link::after {
+    content: '';
+    display: block;
+    height: 7px;
+    border-radius: 4px;
+    height: 4px;
+    background: transparent;
+    border-bottom: 7px solid red;
+    position:absolute;
+    top:85px;
+}
+
+.dashboardtable .nav-link.active::after {
+    width: 4%;
+    
+}
+
+.dashboardtable .nav-pills .nav-link.active, .dashboardtable .nav-pills .show>.nav-link {
+    background-color: transparent !important;
+    color:black;
+    font-weight: 700;
+}
+
+
+
+/*********Chart CSS**********/
+
+.Rectangle {
+   
+     width: 18px;
+      height:2px;
+    position: relative;
+     background-color: red;
+  
+}
+    
+.tab-content table {
+    border-collapse: collapse;
+    width: 100%;
+   
+  }
+ .tab-content th, .tab-content td{
+  border: none;
+  padding: .65rem;
+} 
+
+.tab-content th{
+    font-family: Gotham;
+    font-size: 0.875em;
+    font-weight: normal;
+    color: #9b9b9b;
+  }
+.tab-content td{
+    font-size: 0.875em;
+    
+
+  }
+  
+ 
+  
+  .headclass h5{
+    font-family: Gotham;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a4a4a;
+    }
+    
+    .headclass p{
+    font-family: Gotham;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    text-align: right;
+    color: #4a4a4a;
+    }
+
+
+
+  .dot {
+    height: 9px;
+    width: 9px;
+    background-color: pink;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot1 {
+    height: 9px;
+    width: 9px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+
+  .navbarformap {
+    width: 100%;
+    text-align: -webkit-right;
+  }
+  
+  .navbarformap a {
+    // display:inline;
+    
+    padding: 5px;
+    
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+
+  agm-map {
+    height: 320px;
+    min-width:800px;
+    }
+
+
+    .landing-page-card {
+      margin: 10px;
+      padding: 0px 20px;
+     
+      width: 100%;
+     
+    }
+    
+  
+    
+    .card-icon {
+      width: 32px;
+      height: 32px;
+      float: left;
+      background: #fdcaaa;
+      border-radius: 50%;
+      margin-right: 10px;
+      text-align: -webkit-center;
+      margin-top: 4px;
+      padding-top: 5px;
+    }
+    
+    .card-icon ~ p { margin-left: 50px; }
+    
+    .card-content {
+      font-size: 13px;
+    }
+    
+    .card-link {
+      text-decoration: none;
+      font-size: 15px;
+      color: grey;
+    }
+
+
+    // input[type="date"] {
+    //   position: relative;
+     
+    //   padding-left:25px;
+    // }
+    
+    // input[type="date"]::-webkit-calendar-picker-indicator {
+    //   color: transparent;
+    //   background: none;
+    //   z-index: 1;
+    // }
+
+    
+    
+    // input[type="date"]:before {
+    //   color: transparent;
+    //   background: none;
+    //   display: block;
+    //   font-family: 'FontAwesome';
+    //   content: '\f073';
+    //   /* This is the calendar icon in FontAwesome */
+    //   width: 15px;
+    //   height: 20px;
+    //   position: absolute;
+    //   top: 2px;
+    //   right: 6px;
+    //   color: #999;
+    // }
+
+
+
+
+
+
+
+.head input[type="date"] {
+	position: relative;
+	padding:3px 0 0 30px;
+	font-family: Gotham;
+	font-size: 12px;
+
+
+}
+
+/* create a new arrow, because we are going to mess up the native one
+see "List of symbols" below if you want another, you could also try to add a font-awesome icon.. */
+.head input[type="date"]:after {
+    /* content: "\25BC";  */
+    color: #555;
+   
+}
+.head input[type="date"]:before {
+	color: transparent;
+	background: none;
+	display: block;
+	font-family: 'FontAwesome';
+	content: '\f073';
+	/* This is the calendar icon in FontAwesome */
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 2px;
+	left: 6px;
+	color: #999;
+  }
+
+/* change color of symbol on hover */
+.head input[type="date"]:hover:after {
+    color: #bf1400;
+}
+
+/* make the native arrow invisible and stretch it over the whole field so you can click anywhere in the input field to trigger the native datepicker*/
+.head input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    color: transparent;
+    background: transparent;
+}
+
+/* adjust increase/decrease button */
+.head input[type="date"]::-webkit-inner-spin-button {
+    z-index: -1;
+}
+
+ /* adjust clear button */
+ .head input[type="date"]::-webkit-clear-button {
+     z-index: 1;
+ }
+
+  
+    
+ 

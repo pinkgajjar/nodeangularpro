@@ -1,0 +1,125 @@
+  .topnav {
+     // overflow: hidden;
+      background-color: white;
+      background-color: #fff3eb;
+      position:relative
+  }
+  
+  .topnav a {
+    margin-left:2px;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 0px 8px;
+    text-decoration: none;
+    font-size: 19px;
+  }
+
+  .search-found {
+    text-decoration: underline;
+}
+
+  .topnav .navbarwidth{
+    display:inline-inline; 
+    background-color:#ffefe6;
+    float:right;
+    padding:20px 0 20px 20px; 
+    width:54%
+  }
+
+  @media screen and (min-width: 1630px) {
+    .topnav .navbarwidth{
+       width:20%
+    }
+  }
+
+  @media screen and (min-width: 900px) and (max-width: 1440px)  {
+    .topnav .navbarwidth{
+       width:75%
+    }
+  }
+
+
+  
+  
+  .topnav .setwidth{
+    width:9.25em;
+    height: 4.1875em;
+    object-fit: contain;
+    margin:15px 0 0 15px
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+  
+  
+  
+  
+  
+  .example input[type=text] {
+    height:31px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    padding:2px 0;
+    width: 49%;
+    background: #ffffff;
+  }
+  
+  .example button {
+    height:31px;
+    float: left;
+    width: 5%;
+    padding:5px 0;
+    font-family: Gotham;
+    background: #ffefe6;
+    color: black;
+    font-size: 12px;
+    border: 1px solid black;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  .boxsearch::-webkit-input-placeholder {
+    font-family: Gotham;
+    font-size: 12px;
+    font-weight: normal;
+    padding-left:15px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.34px;
+    color: #000000;
+  }
+
+  .navbar-nav .dropdown-menu{
+    width:auto;
+    will-change: transform;
+    top: 0px;
+    left: 0px !important;
+    transform: translate3d(-64px, 40px, 0px) !important
+   
+  }
+  .navbar-nav .dropdown-item{
+    cursor: pointer;
+    padding: 7px 0;
+  }
+
+  .navbar-nav .dropdown-item:active{
+    background-color: #ffffff;
+  }
+
+  .navbar-nav .dropdown-menu a{
+    margin-left:0 !important;
+    font-size: 15px;
+  }
+
+
+
+

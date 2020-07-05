@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92">
+    <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+        <rect width="90" height="90" fill="#FFF" stroke="#BCBEC0" stroke-width="1.05" rx="2"/>
+        <path fill="#D9D9D9" fill-rule="nonzero" d="M86.61 43.568l-26.356-8.864 9.608-11.83a.904.904 0 1 0-1.273-1.275l-12.072 9.805-9.083-27.015a2.04 2.04 0 0 0-3.867 0l-9.083 27.013-12.071-9.804a.907.907 0 0 0-1.275 1.275l9.608 11.83-26.357 8.865a2.04 2.04 0 0 0 0 3.867l26.945 9.06-10.197 12.553a.907.907 0 0 0 1.275 1.275l12.315-10.001 8.84 26.289a2.04 2.04 0 0 0 3.867 0l8.84-26.29L68.59 70.324a.906.906 0 0 0 1.275-1.275L59.667 56.496l26.944-9.062a2.04 2.04 0 0 0 0-3.866zM79 46H51l6.007-8L79 46zM46 11v29l-8-6.222L46 11zM12 45h27.63l.37.484L34.282 53 12 45zm33 34V51l8 6.007L45 79z"/>
+        <text fill="#58595B" font-family="Gotham-Medium, Gotham" font-size="13" font-weight="400" letter-spacing=".813">
+            <tspan x="39.797" y="49">C</tspan>
+        </text>
+    </g>
+</svg>

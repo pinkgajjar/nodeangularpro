@@ -1,0 +1,260 @@
+{
+  "employees":[
+    {
+      "sr": 1,
+      "floor": "7th",
+      "unit_no": "101",
+      "BHK": "3BHK",
+      "SQ_Feet": "1444 Sq ft",
+      "Avg_Price": "3445 / sq.ft",
+      "Remark": "NA"
+  
+    },
+    {
+      "sr": 2,
+      "floor": "8th",
+      "unit_no": "102",
+      "BHK": "4BHK",
+      "SQ_Feet": "1445 Sq ft",
+      "Avg_Price": "3446 / sq.ft",
+      "Remark": "Penthouse"
+    },
+    {
+      "sr": 3,
+      "floor": "9th",
+      "unit_no": "103",
+      "BHK": "2BHK",
+      "SQ_Feet": "1446 Sq ft",
+      "Avg_Price": "3447 / sq.ft",
+      "Remark": "NA"
+    },
+    {
+      "sr": 4,
+      "floor": "10th",
+      "unit_no": "104",
+      "BHK": "3BHK",
+      "SQ_Feet": "1447 Sq ft",
+      "Avg_Price": "3448 / sq.ft",
+      "Remark": "NA"
+    },
+    {
+      "sr": 5,
+      "floor": "11th",
+      "unit_no": "105",
+      "BHK": "4BHK",
+      "SQ_Feet": "1448 Sq ft",
+      "Avg_Price": "3449 / sq.ft",
+      "Remark": "Penthouse"
+    }
+  ],
+
+  "table":[
+    {
+      "propertyid": "R0024",
+      "project": "Imperia Gala Re…",
+      "Expert": "Rohit Sharma ",
+      "Type": "Residential",
+      "PropertyAdded": "13 Dec 2019",
+      "AmountPaid": "700",
+      "status":"Approved",
+      "PaymentDate": "13 Dec 2019"
+  
+    },
+    {
+      "propertyid": "R0025",
+      "project": "Imperia Gala Re…",
+      "Expert": "Ishant Patil ",
+      "Type": "Residential",
+      "PropertyAdded": "14 Dec 2019",
+      "AmountPaid": "700",
+      "status":"Rejected",
+      "PaymentDate": "14 Dec 2019"
+  
+    },
+    {
+      "propertyid": "R0026",
+      "project": "Imperia Gala Re…",
+      "Expert": "Kapil Patil ",
+      "Type": "Residential",
+      "PropertyAdded": "14 Dec 2019",
+      "AmountPaid": "700",
+      "status":"Pending",
+      "PaymentDate": "14 Dec 2019"
+  
+    },
+    {
+      "propertyid": "R0027",
+      "project": "Imperia Gala Re…",
+      "Expert": "Rohit varma ",
+      "Type": "Residential",
+      "PropertyAdded": "14 Dec 2019",
+      "AmountPaid": "700",
+      "status":"Pending",
+      "PaymentDate": "14 Dec 2019"
+  
+    },
+    {
+      "propertyid": "R0028",
+      "project": "Imperia Gala Re…",
+      "Expert": "Rohit Patil ",
+      "Type": "Residential",
+      "PropertyAdded": "14 Dec 2019",
+      "AmountPaid": "700",
+      "status":"Approved",
+      "PaymentDate": "14 Dec 2019"
+  
+    }
+ 
+  ],
+  "Surveyor":[
+    {
+      "No": "1",
+      "FullName":"Rohit Sharma",
+      "Contact": "09 9999999",
+      "Email": "Rohit Sharma ",
+      "Approved":"12",
+      "Rejected":"5",
+      "Properties": "Residential",
+      "JoinedDate": "13 Dec 2019"
+    },
+    {
+      "No": "2",
+      "FullName":"Rohit Sharma",
+      "Contact": "09 9999999",
+      "Email": "Rohit Sharma ",
+      "Approved":"12",
+      "Rejected":"5",
+      "data":"12",
+      "Properties": "Residential",
+      "JoinedDate": "14 Dec 2019"
+    },
+    {
+      "No": "3",
+      "FullName":"Rohit Sharma",
+      "Contact": "09 9999999",
+      "Email": "Rohit Sharma ",
+      "Approved":"12",
+      "Rejected":"5",
+      "data":"12",
+      "Properties": "Residential",
+      "JoinedDate": "14 Dec 2019"
+    },
+    {
+      "No": "4",
+      "FullName":"Rohit Sharma",
+      "Contact": "09 9999999",
+      "Email": "Rohit Sharma ",
+      "Approved":"12",
+      "Rejected":"5",
+      "data":"12",
+      "Properties": "Residential",
+      "JoinedDate": "14 Dec 2019"
+    },
+    {
+      "No": "5",
+      "FullName":"Rohit Sharma",
+      "Contact": "09 9999999",
+      "Email": "Rohit Sharma ",
+      "Approved":"12",
+      "Rejected":"5",
+      "data":"12",
+      "Properties": "Residential",
+      "JoinedDate": "14 Dec 2019"
+    }
+
+
+  ],
+
+  "Allpropertylist":[
+    {
+      "propertyID": "R0024",
+      "Project":"Imperia Gala Resedential",
+      "Builder": "Sun Infrastructure",
+      "Surveyor": "Rohit Patil",
+      "Expert":"Rohit Patil ",
+      "Type":"Residential",
+      "totalUnits":"56",
+      "totalFloors":"15",
+      "UpdatedDate": "13 Dec 2019",
+      "Status": "Completed"
+    },
+    {
+      "propertyID": "R0025",
+      "Project":"Imperia Gala Resedential",
+      "Builder": "Sun Infrastructure",
+      "Surveyor": "Rohit Patil",
+      "Expert":"Rohit Patil ",
+      "Type":"Residential",
+      "totalUnits":"157",
+      "totalFloors":"10",
+      "UpdatedDate": "14 Dec 2019",
+      "Status": "Pending"
+    },
+    {
+      "propertyID": "R0026",
+      "Project":"Imperia Gala Resedential",
+      "Builder": "Sun Infrastructure",
+      "Surveyor": "Rohit Patil",
+      "Expert":"Rohit Patil ",
+      "Type":"Residential",
+      "totalUnits":"254",
+      "totalFloors":"17",
+      "UpdatedDate": "14 Dec 2019",
+      "Status": "Completed"
+    },
+    {
+      "propertyID": "R0027",
+      "Project":"Imperia Gala Resedential",
+      "Builder": "Sun Infrastructure",
+      "Surveyor": "Rohit Patil",
+      "Expert":"Rohit Patil ",
+      "Type":"Residential",
+      "totalUnits":"56",
+      "totalFloors":"8",
+      "UpdatedDate": "14 Dec 2019",
+      "Status": "Completed"
+    },
+    {
+      "propertyID": "R0028",
+      "Project":"Imperia Gala Resedential",
+      "Builder": "Sun Infrastructure",
+      "Surveyor": "Rohit Patil",
+      "Expert":"Rohit Patil ",
+      "Type":"Residential",
+      "totalUnits":"56",
+      "totalFloors":"8",
+      "UpdatedDate": "14 Dec 2019",
+      "Status": "Pending"
+    },
+    {
+      "propertyID": "R0029",
+      "Project":"Imperia Gala Resedential",
+      "Builder": "Sun Infrastructure",
+      "Surveyor": "Rohit Patil",
+      "Expert":"Rohit Patil ",
+      "Type":"Residential",
+      "totalUnits":"56",
+      "totalFloors":"8",
+      "UpdatedDate": "14 Dec 2019",
+      "Status": "Completed"
+    },
+    {
+      "propertyID": "R0030",
+      "Project":"Imperia Gala Resedential",
+      "Builder": "Sun Infrastructure",
+      "Surveyor": "Rohit Patil",
+      "Expert":"Rohit Patil ",
+      "Type":"Residential",
+      "totalUnits":"56",
+      "totalFloors":"8",
+      "UpdatedDate": "14 Dec 2019",
+      "Status": "Completed"
+    }
+
+
+  ]
+
+  
+ }
+
+ 

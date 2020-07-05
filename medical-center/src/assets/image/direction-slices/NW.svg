@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99px" height="99px" viewBox="0 0 99 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>NW</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="89" height="89" rx="2"></rect>
+        <filter x="-9.0%" y="-6.8%" width="118.1%" height="118.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="1.05" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.256528628 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Property---Rating-Detail-1" transform="translate(-1009.000000, -1065.000000)">
+            <g id="Table" transform="translate(134.000000, 887.000000)">
+                <g id="Right-part" transform="translate(840.000000, 107.000000)">
+                    <g id="vastu-select" transform="translate(40.000000, 74.000000)">
+                        <g id="NW">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Mask">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                                <rect stroke="#9B9B9B" stroke-width="1.05" fill="#F7F7F7" fill-rule="evenodd" x="-0.525" y="-0.525" width="90.05" height="90.05" rx="2"></rect>
+                            </g>
+                            <polygon id="Path-3" fill="#E1E1E1" points="0 0 0.647460938 0.647460938 89 89 89 0"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

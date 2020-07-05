@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="90" viewBox="0 0 91 90">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#F5EB72" stroke="#A49D40" d="M1 89h87a2 2 0 0 0 2-2V0L1 89z"/>
+        <text fill="#6E6F71" font-family="Gotham-Medium, Gotham" font-size="13" font-weight="400" letter-spacing=".813" transform="translate(1)">
+            <tspan x="45" y="79">NE-E</tspan>
+        </text>
+    </g>
+</svg>

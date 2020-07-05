@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="90" viewBox="0 0 91 90">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#D7B758" stroke="#B89A41" d="M90 1H3a2 2 0 0 0-2 2v87L90 1z"/>
+        <text fill="#7E7724" font-family="Gotham-Medium, Gotham" font-size="13" font-weight="400" letter-spacing=".813" transform="translate(1 1)">
+            <tspan x="10" y="19">SW-W</tspan>
+        </text>
+    </g>
+</svg>

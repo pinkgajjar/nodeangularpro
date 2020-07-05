@@ -1,0 +1,52 @@
+<div style="width:100%;background-color: #fff3eb">
+    
+   <app-header></app-header>
+    <div class="container-fluid">
+        <div class="row head" style="padding:30px 0px 0px 0px">
+            <div class="col-md-3">
+                <h5>Dashboard</h5>
+            </div>
+            <div class="col-md-4 offset-md-5 text-right">
+                <span>Last Login 20 Dec 2019 - 04:30 PM</span>
+            </div>
+           
+
+            <br>
+            <br>
+           
+        </div>
+          </div>
+</div>
+
+<div  id="myDIV">
+<br>
+<br>
+<div class="text-right" style="padding:30px 20px 20px 10px">
+    <input type="button" class="btn btn-outline-dark" (click)="addasset()" value="Add Asset" />
+<br>
+<br>
+<div class="example">
+    <input class="boxsearch"  type="text" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder=" Search Table" >
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </div>
+</div> 
+
+<div class="text-center">
+ <table bordered="true" class="table">
+    <thead>
+      <tr>
+        <th *ngFor="let head of headElements | filter:searchText" scope="col">{{head}} </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let el of elements">
+        <td>{{el.assetname}}</td>
+        <td>{{el.status}}</td>
+        <td>{{el.regdate}}</td>
+        <td (click)="editasset(el)"><input type="button" class="btn btn-outline-dark" value="Edit"></td>
+        <td (click)="deleteasset(el)"><input type="button" class="btn btn-outline-dark" value="Delete"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
